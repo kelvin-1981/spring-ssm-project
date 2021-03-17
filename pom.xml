@@ -12,6 +12,10 @@
         <module>mybatis-framework-01</module>
         <module>mybatis-framework-02</module>
         <module>mybatis-framework-03</module>
+        <module>mybatis-framework-04</module>
+        <module>mybatis-framework-05</module>
+        <module>mybatis-framework-06</module>
+        <module>mybatis-framework-07</module>
     </modules>
 
     <dependencies>
@@ -31,6 +35,12 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
     </dependencies>
 </project>

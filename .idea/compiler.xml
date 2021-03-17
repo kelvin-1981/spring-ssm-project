@@ -8,7 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-framework-02" />
         <module name="mybatis-framework-01" />
+        <module name="mybatis-framework-06" />
+        <module name="mybatis-framework-05" />
+        <module name="mybatis-framework-04" />
         <module name="mybatis-framework-03" />
+        <module name="mybatis-framework-07" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

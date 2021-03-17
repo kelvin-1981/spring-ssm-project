@@ -15,6 +15,7 @@ import java.util.Map;
  * 1.实现实体类与数据库字段不一致问题
  * 1.1 方法一: SQL语句中字段起别名
  * 1.2 方法二: 结果集映射
+ * 2.实现日志工厂配置 用于排查错误使用
  */
 public class TestMain {
 
@@ -30,7 +31,7 @@ public class TestMain {
         System.out.println("------------------------------------");
 
         // TODO: 2.根据ID获取用户信息
-        getUserByID();
+        //getUserByID();
     }
 
     /**
