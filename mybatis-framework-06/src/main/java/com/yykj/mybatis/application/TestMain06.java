@@ -6,7 +6,7 @@ import com.yykj.mybatis.utils.MybatisUtils;
 import org.apache.ibatis.session.SqlSession;
 
 /**
- *
+ * 实现查询数据类中包含集合
  */
 public class TestMain06 {
     public static void main(String[] args) {

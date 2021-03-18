@@ -4,6 +4,7 @@ import com.yykj.mybatis.bean.User;
 import com.yykj.mybatis.common.IUserDao;
 import com.yykj.mybatis.utils.MyBatisUtils;
 import org.apache.ibatis.session.SqlSession;
+import org.junit.Test;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -24,7 +25,7 @@ public class TestMain {
     public static void main(String[] args) throws IOException {
 
         // TODO: 1.获取全部用户列表
-        //getUserList();
+        getUserList();
 
         // TODO: 2.根据ID获取用户信息
         //getUserByID();
@@ -39,7 +40,7 @@ public class TestMain {
         //deleteUser();
 
         // TODO: 6.模糊查询
-        getUserLike();
+        //getUserLike();
 
         // TODO: 7.新建用户信息 基于map
         //insertUser02();

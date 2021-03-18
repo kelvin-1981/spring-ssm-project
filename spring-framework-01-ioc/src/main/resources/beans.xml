@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--bean = 对象-->
+    <!--id = 变量名-->
+    <!--class = new的对象-->
+    <!--property 相当于给对象中的属性设值-->
+    <bean id="user" class="com.yykj.spring.bean.User">
+        <property name="name" value="spring"/>
+    </bean>
+
+    <bean id="userMysqlDao" class="com.yykj.spring.dao.UserOracleDao"/>
+    <bean id="userHiveDao" class="com.yykj.spring.dao.UserHiveDao"/>
+    <bean id="userService" class="com.yykj.spring.service.UserService">
+        <property name="userDao" ref="userHiveDao"/>
+    </bean>
+</beans>

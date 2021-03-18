@@ -9,13 +9,21 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>mybatis-framework-01</module>
         <module>mybatis-framework-02</module>
         <module>mybatis-framework-03</module>
         <module>mybatis-framework-04</module>
         <module>mybatis-framework-05</module>
         <module>mybatis-framework-06</module>
         <module>mybatis-framework-07</module>
+        <module>mybatis-framework-01</module>
+        <module>spring-framework-01-ioc</module>
+        <module>spring-framework-02-ioc2</module>
+        <module>spring-framework-03-di</module>
+        <module>spring-framework-04-autowried</module>
+        <module>spring-framework-05-annotation</module>
+        <module>spring-framework-06-annotation2</module>
+        <module>spring-framework-06-appconfig</module>
+        <module>spring-framework-07-proxy</module>
     </modules>
 
     <dependencies>
@@ -41,6 +49,12 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.2.3.RELEASE</version>
         </dependency>
     </dependencies>
 </project>

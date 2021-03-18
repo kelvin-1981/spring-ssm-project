@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yykj.mybatis.common.ICityDao">
+
+    <select id="getCityListByCondition" resultType="com.yykj.mybatis.bean.City" parameterType="Map">
+        SELECT city_code,city_name,city.country_code,district FROM city,country
+        WHERE city.country_code = country.country_code
+        <if test="CountryName != null">
+            AND country_name like CONCAT ('%',#{CountryName},'%')
+        </if>
+        <if test="District != null">
+            AND district = #{District}
+        </if>
+    </select>
+</mapper>
