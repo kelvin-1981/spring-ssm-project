@@ -12,9 +12,13 @@
         <option value="$PROJECT_DIR$/mybatis-01/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-framework/pom.xml" />
         <option value="$PROJECT_DIR$/spring-framework-06-annotation2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-framework-11-anntranscation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-framework-11-transcation02/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-framework-anntranscation/pom.xml" />
         <option value="$PROJECT_DIR$/spring-framework-di/pom.xml" />
         <option value="$PROJECT_DIR$/spring-framework-ioc/pom.xml" />
         <option value="$PROJECT_DIR$/spring-framework-ioc02/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
       </set>
     </option>
   </component>

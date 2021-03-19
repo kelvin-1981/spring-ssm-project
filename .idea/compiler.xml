@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -17,9 +18,12 @@
         <module name="mybatis-framework-06" />
         <module name="mybatis-framework-05" />
         <module name="mybatis-framework-04" />
+        <module name="spring-framework-09-mybatis" />
         <module name="mybatis-framework-03" />
+        <module name="spring-frmaework-10-transcation" />
         <module name="spring-framework-05-annotation" />
         <module name="spring-framework-07-proxy" />
+        <module name="spring-framework-08-aop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,9 +31,13 @@
       <module name="mybatis-framework" target="1.8" />
       <module name="spring-framework-04-autowired" target="1.8" />
       <module name="spring-framework-06-annotation2" target="1.8" />
+      <module name="spring-framework-11-anntranscation" target="1.8" />
+      <module name="spring-framework-11-transcation02" target="1.8" />
+      <module name="spring-framework-anntranscation" target="1.8" />
       <module name="spring-framework-di" target="1.8" />
       <module name="spring-framework-ioc" target="1.8" />
       <module name="spring-framework-ioc02" target="1.8" />
+      <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

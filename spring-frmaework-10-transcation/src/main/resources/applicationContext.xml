@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        配置文件作用：Spring相关的配置使用，Spring应用的Bean等信息，集成其它XML配置信息
+    -->
+
+    <!--导入Spring-Mybatis集成配置信息-->
+    <import resource="spring-mybatis.xml"/>
+
+    <!--UserDao继承了SqlSessionDaoSupport，不必再声明sqlsession-->
+    <bean id="userDao" class="com.yykj.transcation.dao.UserDao">
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
+</beans>
