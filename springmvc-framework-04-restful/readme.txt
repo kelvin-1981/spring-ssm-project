@@ -2,6 +2,7 @@
 1. Restful风格讲解介绍
 2. SpringMVC接收方法
 3. SpringMVC接收数据处理方法
+4. 乱码问题的解决
 
 二、注解
 1. @RequestMapping:  Servlet请求映射
