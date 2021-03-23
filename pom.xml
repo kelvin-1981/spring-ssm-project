@@ -32,6 +32,7 @@
         <module>springmvc-framework-04-restful</module>
         <module>springmvc-framework-05-json</module>
         <module>ssm-project-01</module>
+        <module>ssm-project-bookmanagment</module>
     </modules>
 
     <dependencies>

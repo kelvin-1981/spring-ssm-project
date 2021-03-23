@@ -17,6 +17,7 @@
         <module name="mybatis-framework-02" />
         <module name="spring-framework-01-ioc" />
         <module name="mybatis-framework-01" />
+        <module name="ssm-project-bookmanagment" />
         <module name="mybatis-framework-06" />
         <module name="mybatis-framework-05" />
         <module name="springmvc-framework-02-annotation" />
