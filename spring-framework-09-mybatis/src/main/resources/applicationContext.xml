@@ -30,8 +30,4 @@
         <constructor-arg index="0" ref="sqlSessionFactory"/>
     </bean>
 
-    <bean id="userDao" class="com.yykj.spring.mybatis.dao.UserDao">
-        <property name="sqlSession" ref="sqlSession"/>
-    </bean>
-
 </beans>

@@ -28,11 +28,10 @@
         <module>spring-frmaework-10-transcation</module>
         <module>springmvc-framework-01-hello</module>
         <module>springmvc-framework-02-annotation</module>
-        <module>spring-framework-03-controller</module>
         <module>springmvc-framework-03-controller</module>
         <module>springmvc-framework-04-restful</module>
-        <module>spring-framework-05-json</module>
         <module>springmvc-framework-05-json</module>
+        <module>ssm-project-01</module>
     </modules>
 
     <dependencies>
